@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title> #FreeThemAll | About </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="banner"> </div>
+  <ul id="menu">
+    <li>
+      <a href="index.html"> Home </a>
+    </li>
+    <li>
+      <a href="about" class="active"> About </a>
+    </li>
+    <li>
+      <a href="take-action"> Take Action! </a>
+    </li>
+    <li>
+      <a href="donate"> Donate </a>
+    </li>
+    <li>
+      <a href="contact"> Contact </a>
+    </li>
+  </ul>
+
+  <main>
+    <h1> About Us </h1>
+    <p> The #FreeThemAll campaign is a project of the New York chapter of
+    <a href="http://www.survivedandpunished.org/">Survived and Punished,</a>
+    a grassroots prison abolitionist organization.
+    <p> Our campaign is dedicated to freeing criminalized survivors of gender violence held in women's prisons in New York.
+    </p>
+    <p> We call on Governor Cuomo to immediately use his clemency powers to free people from women's prisons.
+    </p>
+    <p>
+      To learn more about the larger perspectives behind this campaign, visit the
+      <a href="http://www.survivedandpunished.org/analysis--vision.html"> "Vision and Analysis"</a>
+      section of the Survived and Punished national website.
+    </p>
+  </main>
+</body>

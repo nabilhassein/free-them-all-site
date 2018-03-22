@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title> #FreeThemAll | Take Action! </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="banner"> </div>
+  <ul id="menu">
+    <li>
+      <a href="index.html"> Home </a>
+    </li>
+    <li>
+      <a href="about"> About </a>
+    </li>
+    <li>
+      <a href="take-action" class="active"> Take Action! </a>
+    </li>
+    <li>
+      <a href="donate"> Donate </a>
+    </li>
+    <li>
+      <a href="contact"> Contact </a>
+    </li>
+  </ul>
+
+  <main>
+    <h1> Take Action! </h1>
+    <h2> Here are some ways you can stay involved with the campaign: </h2>
+    <ul>
+      <li> <a href="https://docs.google.com/forms/d/e/1FAIpQLScdi4-due-SuYFvbKw_L_dJWIKD-BzpiLY2uV0TrRPNmHUosw/viewform"> Join our mailing list </a></li>
+      <li> Endorse the campaign </li>
+      <li> Contact the governor </li>
+    </ul>
+  </main>
+</body>
