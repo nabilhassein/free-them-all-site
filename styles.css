@@ -1,11 +1,46 @@
-body {
+html {
+    font-size: calc(1em + 1vw);
     max-width: 1000px;
     margin: 0 auto;
-    font-size: 150%;
+}
+
+main {
+    max-width: 60rem;
+}
+
+main*+* {
+    margin-top: 1.5rem;
+}
+li,dt,dd,br,th,td {
+    margin-top: 0;
 }
 
 img {
     max-width: 100%;
+}
+
+p {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 60em) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 120rem) {
+    html {
+        font-size: 150%;
+    }
+}
+
+@media print {
+    body > *:not(main) {
+        display: none;
+    }
 }
 
 #banner {
@@ -26,6 +61,7 @@ img {
 
 #menu li {
     float: left;
+    max-width: 20%;
 }
 
 #menu li a {
@@ -36,8 +72,9 @@ img {
     text-decoration: none;
 }
 
-#menu li a:hover {
+#menu li a:hover, #menu li a:focus{
     background-color: #111;
+    text-decoration: underline;
 }
 
 .active {
