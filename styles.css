@@ -92,6 +92,7 @@ p {
 
 .dual-images img {
     width: 50%;
+    height: 100%;
 }
 
 #power-hour {
