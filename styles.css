@@ -1,6 +1,6 @@
 html {
     font-size: calc(1em + 1vw);
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -70,7 +70,6 @@ p {
 
 #menu li {
     float: left;
-    max-width: 20%;
 }
 
 #menu li a {
