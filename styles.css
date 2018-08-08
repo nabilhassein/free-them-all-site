@@ -11,6 +11,13 @@ main {
 main*+* {
     margin-top: 1.5rem;
 }
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+} 
+
 li,dt,dd,br,th,td {
     margin-top: 0;
 }
